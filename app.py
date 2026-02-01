@@ -132,7 +132,7 @@ def main():
     
     # Plik musi nazywać się Lotto600los.pdf lub inny, który masz
     # Tutaj używam nazwy uniwersalnej, sprawdź jaką masz na GitHubie!
-    FILE_NAME = "Lotto600los.pdf" 
+    FILE_NAME = "Lotto999los.pdf" 
     
     draws = load_data(FILE_NAME)
     

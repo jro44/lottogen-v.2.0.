@@ -127,12 +127,12 @@ def smart_generate(weights):
 
 # --- INTERFEJS ---
 def main():
-    st.title("🎱 Lotto Smart System")
+    st.title("🎱 Lotto Generator v2.0")
     st.markdown("Algorytm z filtrowaniem statystycznym (Suma, Parzystość, Zakres).")
     
     # Plik musi nazywać się Lotto600los.pdf lub inny, który masz
     # Tutaj używam nazwy uniwersalnej, sprawdź jaką masz na GitHubie!
-    FILE_NAME = "Lotto999los.pdf" 
+    FILE_NAME = "999los.pdf" 
     
     draws = load_data(FILE_NAME)
     
